@@ -1,0 +1,92 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .bg-banner-1 {
+        height: 500px;
+        width: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/banner1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .bg-banner-2 {
+        height: 500px;
+        width: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/banner2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .bg-banner-3 {
+        height: 500px;
+        width: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/s3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .pt-6 {
+        padding-top: 150px;
+    }
+    
+    .f-5 {
+        font-size: 58px
+    }
+    
+    .icon-setup {
+        width: 34px;
+        height: 34px;
+        color: red;
+    }
+    
+    .i-color {
+        color: red;
+    }
+    
+    .circular-card {
+        height: 80px;
+        width: 80px;
+        background-color: #F7F7F7;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    
+    .ps-10 {
+        padding-left: 120px;
+    }
+    
+    .text-just {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    
+    .img-rounded {
+        border-radius: 50%;
+    }
+    
+    .fa-style {
+        background-color: crimson;
+        color: white;
+        padding-right: 10px;
+        padding: 20px;
+    }
+    
+    #form__shadow {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    
+    @media (min-width:0px) and (max-width:592px) {
+        .row {
+            display: flex;
+            grid-template-columns: 1fr;
+        }
+        #banner-container {
+            width: 100%;
+        }
+        #banner-container img {
+            width: 100%;
+        }
+    }
